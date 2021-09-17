@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Home</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/page2.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <p class="centeredText pageSelection">
+            <a href="index.html">Home</a>
+            <a href="page1.html">About</a>
+            <a class="selected" href="page2.html">Quiz</a>
+        </p>
+
+        <div class="mainContent">
+            <h1 class="centeredText mainContentTitle">CHAIRS QUIZ</h1>
+            <hr>
+
+            <!-- First Question -->
+            <h2>Question 1</h2>
+            <p>What is the <span class="bold">adjustable</span> type of chair called?</p>
+            <p>Answer: <input></p>
+
+            <hr>
+
+            <!-- Second Question -->
+            <h2>Question 2</h2>
+            <p>What is the chair with <span class="bold">armrests</span> called?</p>
+            <p>Answer: <input></p>
+
+            <hr>
+
+            <h2>Question 3</h2>
+            <p>What is the chair that <span class="bold">can be found everywhere</span> called?</p>
+            <p>Answer: <input></p>
+
+            <hr>
+
+            <h2>Question 4</h2>
+            <img src="img/oldOfficeChairImage.jpg" alt="Office Chair">
+            <p>Were office chairs invented around the <span class="bold">mid-19th century</span>?</p>
+            <p>Answer: <input></p>
+
+            <hr>
+
+            <h2>Question 5</h2>
+            <p>Do you like chairs?</p>
+            <p>Answer: <input></p>
+
+            <hr>
+
+            <button id="checkAnswersButton">Check Answers!</button>
+            <!-- Response to quiz score -->
+            <p id="quizResponse">Click the Check Answers button!</p>
+
+        </div>
+
+        <script src="quizScript.js"></script>
+    </body>
+</html>
