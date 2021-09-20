@@ -1,0 +1,25 @@
+body{
+    padding-bottom: 25px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+#armchairHeader{
+    color: orange;
+}
+
+#officeChairHeader{
+    color:Blue;
+}
+
+#benchHeader{
+    color:green;
+}
+
+div{
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
