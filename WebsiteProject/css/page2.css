@@ -6,4 +6,10 @@
     font-style: italic;
     font-weight: bold;
     font-family: fantasy;
+    transition: background-color 2s;
+}
+
+.quizInput{
+    border-width: 3px;
+    border-style: solid;
 }
