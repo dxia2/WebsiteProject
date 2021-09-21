@@ -1,8 +1,9 @@
-body{
+body {
     padding-bottom: 25px;
 }
+
 /* styles the button to check answers */
-#checkAnswersButton{
+#checkAnswersButton {
     width: 200px;
     height: 50px;
     border-radius: 5px;
@@ -12,7 +13,7 @@ body{
     font-family: fantasy;
 }
 
-.quizInput{
+.quizInput {
     border-width: 3px;
     border-style: solid;
 }

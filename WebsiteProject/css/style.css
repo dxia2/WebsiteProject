@@ -1,5 +1,5 @@
 /* Set background and font of html */
-html{
+html {
     background: url("../img/chairBackground.jpg");
     background-size: cover;
     background-position: center;
@@ -9,40 +9,43 @@ html{
     width: 100%;
     height: 100%;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /* Sets the selected page name to be underlined */
-.selected{
+.selected {
     text-decoration: underline;
 }
 
-.centeredText{
+.centeredText {
     text-align: center;
 }
+
 /* changes the font size and weight of the 3 links used to navigate between pages */
-.pageSelection{
+.pageSelection {
     font-size: 25px;
     font-weight: bolder;
 }
+
 /* Adds spacing between the links that go to different pages */
-.pageLinks{
+.pageLinks {
     margin-right: 25px;
 }
 
-.italic{
+.italic {
     font-style: italic;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
 /* styles the main content div of the page */
-.mainContent{
+.mainContent {
     background-color: rgba(255, 255, 255, 0.6);
     width: 650px;
     margin: 25px auto;
@@ -51,8 +54,8 @@ a{
 }
 
 /* title of the main content */
-.mainContentTitle{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.mainContentTitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     background-color: grey;
     border-radius: 25px;
@@ -60,11 +63,11 @@ a{
 }
 
 /* caption of images */
-.imageCaption{
+.imageCaption {
     font-style: italic;
     font-size: small;
 }
 
-hr{
-    width:85%;
+hr {
+    width: 85%;
 }

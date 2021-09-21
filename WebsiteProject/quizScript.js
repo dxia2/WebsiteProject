@@ -1,11 +1,11 @@
 // Chairs Quiz
 
 // Custom "Question" data type with the question's input field, feedback paragraph, and array of correct answers
-class Question{
+class Question {
     input = null;
     feedback = null;
     correctAnswers = null;
-    constructor(input, feedback, correctAnswers){
+    constructor(input, feedback, correctAnswers) {
         this.input = input;
         this.feedback = feedback;
         this.correctAnswers = correctAnswers;
@@ -32,7 +32,7 @@ let maxScore = 5;
 checkAnswersButton.addEventListener("click", checkTestAnswers);
 
 // Event function
-function checkTestAnswers(){
+function checkTestAnswers() {
     score = 0;
 
     // Check every question to see if the answer is correct
@@ -43,40 +43,40 @@ function checkTestAnswers(){
     AnswerCorrectOrIncorrect(question5);
 
     // Display quiz results
-    quizScoreEl.innerHTML = "You got " + score + "/" + maxScore + " (" + (score/maxScore) * 100 + "%) ";
-    
+    quizScoreEl.innerHTML = "You got " + score + "/" + maxScore + " (" + (score / maxScore) * 100 + "%) ";
+
     // Give celebration or encouragement based on quiz score
-    if(score > 3){
+    if (score > 3) {
         responseToQuizScoreEl.innerHTML = "Good job! You are an expert on chairs.";
-    }else{
+    } else {
         responseToQuizScoreEl.innerHTML = "Nice try! See if you can get a better mark next time."
     }
 
 }
 
 // Function that tells the user if their answer is correct by changing the "feedback" text
-function AnswerCorrectOrIncorrect(question){
+function AnswerCorrectOrIncorrect(question) {
     isCorrect = false;
     // Loop through all the questions' correct answers
-    for(let i = 0; i < question.correctAnswers.length; i++){
+    for (let i = 0; i < question.correctAnswers.length; i++) {
         // If user's answer is equal to one of the question's correct answers, set isCorrect to true
-        if(question.input.value.toLowerCase() === question.correctAnswers[i]){
+        if (question.input.value.toLowerCase() === question.correctAnswers[i]) {
             isCorrect = true;
             break;
         }
     }
 
-    if(isCorrect){
+    if (isCorrect) {
         // If is correct set "feedback" paragraph to say Correct
         question.feedback.innerHTML = " Correct";
         question.feedback.style.color = "green";
         question.input.style.borderColor = "green";
         // Increment score by 1
         score++;
-    }else{
+    } else {
         // If is not correct set "feedback" paragraph to say Incorrect
         question.feedback.innerHTML = " Incorrect";
         question.feedback.style.color = "red";
         question.input.style.borderColor = "red";
     }
-}   
+}
