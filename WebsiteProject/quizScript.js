@@ -74,7 +74,7 @@ function AnswerCorrectOrIncorrect(question){
         // Increment score by 1
         score++;
     }else{
-        // If is correct set "feedback" paragraph to say Incorrect
+        // If is not correct set "feedback" paragraph to say Incorrect
         question.feedback.innerHTML = " Incorrect";
         question.feedback.style.color = "red";
         question.input.style.borderColor = "red";

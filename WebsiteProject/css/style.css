@@ -23,13 +23,13 @@ a{
 .centeredText{
     text-align: center;
 }
-
+/* changes the font size and weight of the 3 links used to navigate between pages */
 .pageSelection{
     font-size: 25px;
     font-weight: bolder;
 }
-
-a{
+/* Adds spacing between the links that go to different pages */
+.pageLinks{
     margin-right: 25px;
 }
 
@@ -41,6 +41,7 @@ a{
     font-weight: bold;
 }
 
+/* styles the main content div of the page */
 .mainContent{
     background-color: rgba(255, 255, 255, 0.6);
     width: 650px;
@@ -49,6 +50,7 @@ a{
     border-radius: 25px;
 }
 
+/* title of the main content */
 .mainContentTitle{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
@@ -57,6 +59,7 @@ a{
     margin: 10px 50px;
 }
 
+/* caption of images */
 .imageCaption{
     font-style: italic;
     font-size: small;

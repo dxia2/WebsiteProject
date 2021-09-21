@@ -1,12 +1,12 @@
 body{
     padding-bottom: 25px;
 }
-
+/* Set width and height of images */
 img{
     width: 400px;
     height: 300px;
 }
-
+/* Change colors of various headers */
 #armchairHeader{
     color: orange;
 }
@@ -18,7 +18,7 @@ img{
 #benchHeader{
     color:green;
 }
-
+/* add some spacing between different chair descriptions */
 div{
     margin-top: 25px;
     margin-bottom: 75px;
